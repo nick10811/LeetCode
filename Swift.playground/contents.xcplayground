@@ -8,5 +8,6 @@
         <page name='88. Merge Sorted Array'/>
         <page name='561. Array Partition I'/>
         <page name='941. Valid Mountain Array'/>
+        <page name='852. Peak Index in a Mountain Array'/>
     </pages>
 </playground>
