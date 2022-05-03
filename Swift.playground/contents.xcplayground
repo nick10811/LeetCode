@@ -7,5 +7,6 @@
         <page name='896. Monotonic Array'/>
         <page name='88. Merge Sorted Array'/>
         <page name='561. Array Partition I'/>
+        <page name='941. Valid Mountain Array'/>
     </pages>
 </playground>
