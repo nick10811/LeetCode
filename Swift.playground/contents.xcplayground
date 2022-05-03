@@ -9,5 +9,6 @@
         <page name='561. Array Partition I'/>
         <page name='941. Valid Mountain Array'/>
         <page name='852. Peak Index in a Mountain Array'/>
+        <page name='2210. Count Hills and Valleys in an Array'/>
     </pages>
 </playground>
