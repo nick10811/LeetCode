@@ -10,5 +10,6 @@
         <page name='941. Valid Mountain Array'/>
         <page name='852. Peak Index in a Mountain Array'/>
         <page name='2210. Count Hills and Valleys in an Array'/>
+        <page name='1909. Remove One Element to Make the Array Strictly Increasing'/>
     </pages>
 </playground>
