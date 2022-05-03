@@ -6,5 +6,6 @@
         <page name='13. Roman to Integer'/>
         <page name='896. Monotonic Array'/>
         <page name='88. Merge Sorted Array'/>
+        <page name='561. Array Partition I'/>
     </pages>
 </playground>
