@@ -15,5 +15,6 @@
         <page name='100. Same Tree'/>
         <page name='101. Symmetric Tree'/>
         <page name='94. Binary Tree Inorder Traversal'/>
+        <page name='104. Maximum Depth of Binary Tree'/>
     </pages>
 </playground>
