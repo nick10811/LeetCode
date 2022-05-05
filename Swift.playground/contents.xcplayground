@@ -13,5 +13,6 @@
         <page name='1909. Remove One Element to Make the Array Strictly Increasing'/>
         <page name='1013. Partition Array Into Three Parts With Equal Sum'/>
         <page name='100. Same Tree'/>
+        <page name='101. Symmetric Tree'/>
     </pages>
 </playground>
