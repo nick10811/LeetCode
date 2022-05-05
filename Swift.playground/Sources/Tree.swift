@@ -16,23 +16,21 @@ public class TreeNode {
 
 public class Tree {
     
-    public enum TreeType {
-        case binary, general
-    }
-    
     public enum Traversal {
         case inorder, preorder, postorder
     }
     
     public init() { }
     
-    public func build(_ array: [Int?], type: TreeType = .binary) -> TreeNode? {
-        return buildBinaryTree(array)
+    public func build(_ array: [Int?]) -> TreeNode? {
+//        return buildBinaryTree(array)
+        return buildBianaryTreeWithoutNil(array)
     }
     
     /*
+     * input: [1,2,3,4,nil,6,7]
      *             1
-     *           2  3
+     *           2   3
      *         4  0 6  7
      */
     private func buildBinaryTree(_ array: [Int?], offset: Int = 0) -> TreeNode? {
@@ -43,6 +41,50 @@ public class Tree {
         node.left = buildBinaryTree(array, offset: 2*offset+1)
         node.right = buildBinaryTree(array, offset: 2*offset+2)
         return node
+    }
+    
+    /*
+     * input: [1,nil,2,3]
+     *             1
+     *           0   2
+     *          - - 3  -
+     */
+    private func buildBianaryTreeWithoutNil(_ array: [Int?]) -> TreeNode? {
+        var root: TreeNode? = nil
+        var stack = [TreeNode]()
+        for i in 0..<array.count {
+            let node: TreeNode = TreeNode(array[i] ?? 0)
+            if root == nil {
+                root = node
+            }
+            
+            for j in 0..<stack.count {
+                let parent = stack[j]
+                if parent.val == 0 {
+                    continue
+                } else if parent.left == nil {
+                    parent.left = node
+                    break
+                } else if parent.right == nil {
+                    parent.right = node
+                    break
+                }
+            }
+            
+            stack.append(node)
+        }
+        
+        // remove 0
+        for i in 0..<stack.count {
+            let node = stack[i]
+            if node.left?.val == 0 {
+                node.left = nil
+            } else if node.right?.val == 0 {
+                node.right = nil
+            }
+        }
+        
+        return root
     }
     
     public func traversal(_ root: TreeNode?, type: Traversal = .preorder) {
