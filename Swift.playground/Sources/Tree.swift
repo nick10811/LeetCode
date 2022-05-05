@@ -21,7 +21,7 @@ public class Tree {
     }
     
     public enum Traversal {
-        case in_order, pre_order, post_order
+        case inorder, preorder, postorder
     }
     
     public init() { }
@@ -45,35 +45,35 @@ public class Tree {
         return node
     }
     
-    public func traversal(_ root: TreeNode?, type: Traversal = .pre_order) {
+    public func traversal(_ root: TreeNode?, type: Traversal = .preorder) {
         switch type {
-        case .pre_order : preOrderTraversal(root)
-        case .in_order  : inOrderTraversal(root)
-        case .post_order: postOrderTraversal(root)
+        case .preorder : preorderTraversal(root)
+        case .inorder  : inorderTraversal(root)
+        case .postorder: postorderTraversal(root)
         }
     }
     
-    private func preOrderTraversal(_ root: TreeNode?) {
+    private func preorderTraversal(_ root: TreeNode?) {
         guard let root = root else { return }
         
         print(root.val)
-        preOrderTraversal(root.left)
-        preOrderTraversal(root.right)
+        preorderTraversal(root.left)
+        preorderTraversal(root.right)
     }
     
-    private func inOrderTraversal(_ root: TreeNode?) {
+    private func inorderTraversal(_ root: TreeNode?) {
         guard let root = root else { return }
 
-        inOrderTraversal(root.left)
+        inorderTraversal(root.left)
         print(root.val)
-        inOrderTraversal(root.right)
+        inorderTraversal(root.right)
     }
 
-    private func postOrderTraversal(_ root: TreeNode?) {
+    private func postorderTraversal(_ root: TreeNode?) {
         guard let root = root else { return }
 
-        postOrderTraversal(root.left)
-        postOrderTraversal(root.right)
+        postorderTraversal(root.left)
+        postorderTraversal(root.right)
         print(root.val)
     }
 }
