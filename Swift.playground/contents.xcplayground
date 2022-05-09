@@ -17,5 +17,6 @@
         <page name='94. Binary Tree Inorder Traversal'/>
         <page name='104. Maximum Depth of Binary Tree'/>
         <page name='155. Min Stack'/>
+        <page name='21. Merge Two Sorted Lists'/>
     </pages>
 </playground>
