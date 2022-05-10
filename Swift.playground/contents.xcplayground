@@ -23,5 +23,6 @@
         <page name='141. Linked List Cycle'/>
         <page name='83. Remove Duplicates from Sorted List'/>
         <page name='111. Minimum Depth of Binary Tree'/>
+        <page name='108. Convert Sorted Array to Binary Search Tree'/>
     </pages>
 </playground>
