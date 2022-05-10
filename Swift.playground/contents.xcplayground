@@ -22,5 +22,6 @@
         <page name='203. Remove Linked List Elements'/>
         <page name='141. Linked List Cycle'/>
         <page name='83. Remove Duplicates from Sorted List'/>
+        <page name='111. Minimum Depth of Binary Tree'/>
     </pages>
 </playground>
