@@ -27,6 +27,26 @@ public class LinkList {
         return root
     }
     
+    public func buildCycle(_ arr: [Int], pos: Int = -1) -> ListNode? {
+        var root: ListNode? = nil
+        var stack = [ListNode]()
+        for i in 0..<arr.count {
+            let node = ListNode(arr[i])
+            if root == nil {
+                root = node
+            } else if let preNode = stack.last {
+                preNode.next = node
+            }
+            stack.append(node)
+        }
+        
+        if pos >= 0 && pos < arr.count {
+            let last = stack.last
+            last?.next = stack[pos]
+        }
+        return root
+    }
+    
     public func convertToArray(_ root: ListNode?) -> [Int] {
         var arr = [Int]()
         var pre = root

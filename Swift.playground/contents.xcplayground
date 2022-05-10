@@ -20,5 +20,6 @@
         <page name='21. Merge Two Sorted Lists'/>
         <page name='206. Reverse Linked List'/>
         <page name='203. Remove Linked List Elements'/>
+        <page name='141. Linked List Cycle'/>
     </pages>
 </playground>
