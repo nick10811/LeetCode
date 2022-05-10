@@ -15,7 +15,7 @@ class Solution {
 }
 
 let sol = Solution()
-print(sol.isPalindrome(121))
-print(sol.isPalindrome(123))
-print(sol.isPalindrome(-121))
-print(sol.isPalindrome(10))
+print(sol.isPalindrome(121)) // 121 true
+print(sol.isPalindrome(123)) // 321 false
+print(sol.isPalindrome(-121)) // false
+print(sol.isPalindrome(10)) // 01 false

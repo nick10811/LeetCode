@@ -39,8 +39,8 @@ class Solution {
 }
 
 let sol = Solution()
-print(sol.isMonotonic([1,2,2,3]))
-print(sol.isMonotonic([6,5,4,4]))
+print(sol.isMonotonic([1,2,2,3])) // ascending
+print(sol.isMonotonic([6,5,4,4])) // descending
 print(sol.isMonotonic([1,3,2]))
-print(sol.isMonotonic([1,1,2]))
-print(sol.isMonotonic([2,2,1]))
+print(sol.isMonotonic([1,1,2])) // ascending
+print(sol.isMonotonic([2,2,1])) // descending
