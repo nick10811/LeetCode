@@ -22,9 +22,8 @@ public class Tree {
     
     public init() { }
     
-    public func build(_ array: [Int?]) -> TreeNode? {
-//        return buildBinaryTree(array)
-        return buildBianaryTreeWithoutNil(array)
+    public func build(_ array: [Int?], skipNil: Bool = true) -> TreeNode? {
+        return skipNil ? buildBianaryTreeWithoutNil(array) : buildBinaryTree(array)
     }
     
     /*
