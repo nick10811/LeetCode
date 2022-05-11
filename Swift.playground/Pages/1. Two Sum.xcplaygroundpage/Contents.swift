@@ -1,13 +1,26 @@
 import Foundation
 
 class Solution {
+//    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+//        for i in 0..<nums.count {
+//            for j in i+1..<nums.count {
+//                if nums[j] == target - nums[i] {
+//                    return [i, j]
+//                }
+//            }
+//        }
+//        return []
+//    }
+    
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        // make a hash map
+        var hashMap = [Int:Int]() // Dictionary (index, num)
         for i in 0..<nums.count {
-            for j in i+1..<nums.count {
-                if nums[j] == target - nums[i] {
-                    return [i, j]
-                }
+            let num = nums[i]
+            if let dic = hashMap.first(where: { $0.value == target - num }) {
+                return [dic.key, i]
             }
+            hashMap[i] = num
         }
         return []
     }
