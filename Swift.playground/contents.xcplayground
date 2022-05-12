@@ -26,5 +26,6 @@
         <page name='108. Convert Sorted Array to Binary Search Tree'/>
         <page name='700. Search in a Binary Search Tree'/>
         <page name='1022. Sum of Root To Leaf Binary Numbers'/>
+        <page name='897. Increasing Order Search Tree'/>
     </pages>
 </playground>
