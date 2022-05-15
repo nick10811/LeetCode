@@ -31,5 +31,6 @@
         <page name='1903. Largest Odd Number in String'/>
         <page name='61. Rotate List'/>
         <page name='326. Power of Three'/>
+        <page name='832. Flipping an Image'/>
     </pages>
 </playground>
