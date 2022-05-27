@@ -36,5 +36,6 @@
         <page name='796. Rotate String'/>
         <page name='20. Valid Parentheses'/>
         <page name='191. Number of 1 Bits'/>
+        <page name='1342. Number of Steps to Reduce a Number to Zero'/>
     </pages>
 </playground>
