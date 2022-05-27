@@ -37,5 +37,6 @@
         <page name='20. Valid Parentheses'/>
         <page name='191. Number of 1 Bits'/>
         <page name='1342. Number of Steps to Reduce a Number to Zero'/>
+        <page name='2169. Count Operations to Obtain Zero'/>
     </pages>
 </playground>
