@@ -43,5 +43,6 @@
         <page name='287. Find the Duplicate Number'/>
         <page name='29. Divide Two Integers'/>
         <page name='1461. Check If a String Contains All Binary Codes of Size K'/>
+        <page name='1480. Running Sum of 1d Array'/>
     </pages>
 </playground>
