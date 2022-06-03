@@ -42,9 +42,9 @@ class Solution {
 // 3
 
 let sol = Solution()
-let matrix1 = [[1,2,3],[4,5,6],[7,8,9]]
-print(sol.transpose(matrix1))
+//let matrix1 = [[1,2,3],[4,5,6],[7,8,9]]
+//print(sol.transpose(matrix1))
 let matrix2 = [[1,2,3],[4,5,6]]
 print(sol.transpose(matrix2))
-let matrix3 = [[1,2,3]]
-print(sol.transpose(matrix3))
+//let matrix3 = [[1,2,3]]
+//print(sol.transpose(matrix3))

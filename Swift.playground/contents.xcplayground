@@ -45,5 +45,6 @@
         <page name='1461. Check If a String Contains All Binary Codes of Size K'/>
         <page name='1480. Running Sum of 1d Array'/>
         <page name='867. Transpose Matrix'/>
+        <page name='304. Range Sum Query 2D - Immutable'/>
     </pages>
 </playground>
