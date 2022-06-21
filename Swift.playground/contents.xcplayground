@@ -48,5 +48,6 @@
         <page name='304. Range Sum Query 2D - Immutable'/>
         <page name='3. Longest Substring Without Repeating Characters'/>
         <page name='1268. Search Suggestions System'/>
+        <page name='1642. Furthest Building You Can Reach'/>
     </pages>
 </playground>
